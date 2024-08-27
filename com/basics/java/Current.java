@@ -1,8 +1,6 @@
-package com.inheritance.assignment;
+package com.java.abstractDemo;
 
 public class Current extends Account{
-
-
 
 	public Current(double balance) {
 		super(balance);
@@ -29,5 +27,6 @@ public class Current extends Account{
 		return balance;
 	}
 }
+
 
 

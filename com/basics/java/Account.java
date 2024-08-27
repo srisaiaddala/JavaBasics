@@ -1,6 +1,6 @@
-package com.inheritance.assignment;
+package com.java.abstractDemo;
 
-public class Account {
+public abstract class Account {
 	double balance;
 
 	public Account(double balance) {
@@ -8,18 +8,9 @@ public class Account {
 		this.balance = balance;
 	}
 
-	void withdraw(double amount) {
-		balance = balance - amount;
-		System.out.println("You have withdrawn "+amount);
-		System.out.println("Your current balance is "+balance);
+	abstract void withdraw(double amount);
 
-	}
-
-	void deposit(double amount) {
-		balance = balance + amount;
-		System.out.println("You have deposited "+amount);
-		System.out.println("Your current balance is "+balance);
-	}
+	abstract void deposit(double amount);
 
 	double getBalance() {
 		return balance;

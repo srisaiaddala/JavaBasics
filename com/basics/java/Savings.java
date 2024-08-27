@@ -1,10 +1,6 @@
-package com.inheritance.assignment;
+package com.java.abstractDemo;
 
 public class Savings extends Account{
-	
-	
-	
-
 	public Savings(double balance) {
 		super(balance);
 	}
@@ -27,5 +23,3 @@ public class Savings extends Account{
 		return balance;
 	}
 }
-
-
